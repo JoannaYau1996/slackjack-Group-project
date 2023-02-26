@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mynerve', cursive;
+  user-select:none;
+}
+
+html{
+  font-size: 20px;
+}
+
+main {
+  min-height: 100vh;
+  text-align: center;
+  vertical-align: center;
+  background: url("https://img.freepik.com/free-photo/clear-white-plaster-texture-pattern_1194-6795.jpg?w=1060&t=st=1676883859~exp=1676884459~hmac=b73fcb929de032d86ce77c99221f5b9047cbdacff05915a31e3555f62f230123")
+}
+
+.playground{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.cards{
+  font-size: 8rem;
+}
+
+.poker{
+  margin:50px 50px
+}
+
+label{
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.start{
+  margin: 150px 0;
+  font-weight: bold;
+}
+
+#title{
+  padding-top: 25px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.bigbig{
+  font-size: 30px;
+  margin: 150px 0;
+}
+
+.rule{
+  margin:25px;
+  width:400px;
+  background: rgba(255,255,255,0.5);
+  border: solid 2px black;
+  border-color: black;
+  padding: 20px;
+  border-radius:50% 4% 80% 5%/10% 80% 7% 95%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15), 0 6px 6px rgba(0,0,0,0.10);
+  transform: rotate(2deg);
+}
+
+.rule:hover{
+  transform: translateY(-1px); 
+}
+
+
+.body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hr{
+  height: 3px;
+  background: linear-gradient(to left,#ccc,#000,#ccc );
+}
+
+.hr2{
+  height: 3px;
+  background: linear-gradient(to left,#fff,#000,#fff );
+  border-radius:5% 40% 5% 95%/90% 90% 7% 5%;
+}
